@@ -3,7 +3,7 @@ const assert = require('assert'); // N.B: Assert module comes bundled with Node.
 mongoose.Promise = global.Promise; // Allows us to use Native promises without throwing error.
 require("dotenv").config();
 
-// Connect to a single MongoDB instance. The connection string could be that of a remote server
+// Connecting to remote MongoDB server.
 // We assign the connection instance to a constant to be used later in closing the connection
 
 
