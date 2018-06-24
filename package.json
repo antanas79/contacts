@@ -1,0 +1,15 @@
+{
+  "name": "contact",
+  "preferGlobal": true,
+  "bin": "./contact.js",
+  "version": "1.0.0",
+  "description": "client registration system",
+  "main": "contact.js",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "dotenv": "^6.0.0",
+    "inquirer": "^6.0.0",
+    "mongoose": "^5.1.6"
+  }
+}
